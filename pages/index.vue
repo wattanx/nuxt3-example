@@ -10,6 +10,6 @@ const id = ref("1");
     <div>
       <NuxtLink :href="`/slug/${id}`">to slug</NuxtLink>
     </div>
-    <NuxtLin to="/about">ABOUT</NuxtLin>
+    <NuxtLink to="/about">ABOUT</NuxtLink>
   </div>
 </template>
